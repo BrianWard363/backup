@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+  }
+
+  body { 
+    font-family: 'Cantarell', sans-serif;
+    color: #ffffff;
+  }
+  
+  h1 {
+    color: #efecec;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    margin-top: 20px;
+    align-self: auto;
+  }
+
+.container {
+    text-align: center;
+}
+
+  body {
+    /* Location of the image */
+    background-image: url(sunset-g6e8fa19e5_1920.jpg);
+    
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+       the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#464646;
+    
+    /* SHORTHAND CSS NOTATION
+     * background: url(background-photo.jpg) center center cover no-repeat fixed;
+     */
+  }
+  
+  /* For mobile devices */
+  @media only screen and (max-width: 767px) {
+    body {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+      background-image: url(sunset-g63b67cc4a_1280.jpg);
+    }
+      }
+
+a {
+    color: #ffffff;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 50px;
+    z-index: 9999;
+
+  }
+  
+    .inner {
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+  .navbar a {
+    display: inline-block;
+    border: 1px solid #fff;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 3px;
+    padding: 2px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  p {
+    margin: 0 0 15px 0;
+  }
+  
+  strong {
+    font-weight: 700;
+  }
+  
+  blockquote {
+    display: block;
+    max-width: 480px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);  
+    color: #e1e1e1;
+    font-family: "Kotta One", serif;
+    font-size: 22px;
+    line-height: 28px;
+    border-radius: 3em;
+  }
+  
+  blockquote cite {
+    display: block;
+    font: 18px/23px "Cantarell", sans-serif;
+    font-size: 16px;
+    margin-top: 16px;
+    color: #cccccc;
+    text-transform: uppercase;
+  }
+button {
+    background-color: transparent;
+    border-color: aqua;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 24px;
+    color: white;
+    border-radius: 1em;
+}

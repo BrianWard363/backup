@@ -1,0 +1,297 @@
+body {
+    margin: 15px 15px 15px 15px;
+  }
+  
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card1 {
+  overflow: hidden;
+}
+
+.card-background {
+  position: absolute;
+  height: 80%;
+  width: 140%;
+  transform: rotate(-15deg);
+  top: 260px;
+  left: -60px;
+  background-color: whitesmoke;
+  z-index: 1;
+}
+  
+.bg-img {
+    /* The image used */
+    background-image: url("img/iPhone-cartoon-landscape-wallpaper-ongliong11-1.jpg");
+  
+    /* Full height */
+    height: 100%;
+
+    /* Add the blur effect */
+    filter: blur(5px);
+    position: relative;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+.bg-pfp {
+    /* The image used */
+    background-image: url("img/Untitled.jpg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    border: 5px solid white;
+    background-position: center;
+    top: 27%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+  }
+  .bg-img1 {
+    /* The image used */
+    background-image: url("img/iPhone-cartoon-landscape-wallpaper-ongliong11-1.jpg");
+  
+    /* Full height */
+    height: 40%;
+
+    position: relative;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+.bg-pfp1 {
+    /* The image used */
+    background-image: url("img/Untitled.jpg");
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    border: 5px solid white;
+    background-position: center;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  .bg-img2 {
+    /* The image used */
+    background-image: url("img/iPhone-cartoon-landscape-wallpaper-ongliong11-1.jpg");
+  
+    /* Full height */
+    height: 80%;
+
+    position: relative;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+.bg-pfp2 {
+    /* The image used */
+    background-image: url("img/Untitled.jpg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    border: 5px solid white;
+    background-position: center;
+    top: 47%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+  }
+  .bg-img3 {
+    /* The image used */
+    background-image: url("img/iPhone-cartoon-landscape-wallpaper-ongliong11-1.jpg");
+  
+    /* Full height */
+    height: 40%;
+
+    position: relative;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  }
+
+.bg-pfp3 {
+    /* The image used */
+    background-image: url("img/Untitled.jpg");
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    border: 5px solid white;
+    background-position: center;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+  }
+  .bg-img4 {
+    /* The image used */
+    background-image: url("img/iPhone-cartoon-landscape-wallpaper-ongliong11-1.jpg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    /* Full height */
+    height: 50%;
+    border-radius: 2rem;
+    margin-bottom: 5%;
+
+    position: relative;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  /* Position text in the middle of the page/image */
+.bg-text {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+    /* Position text in the middle of the page/image */
+.bg-text1 {
+  font-size: large;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.bg-text2 {
+  font-size: large;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.bg-text3 {
+  font-size: large;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.bg-text4 {
+  font-size: large;
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 270px;
+  justify-content: flex-start;
+ 
+}
+
+.card-title1 {
+  color: limegreen;
+}
+.card-title2 {
+  color: plum;
+}
+
+.social-icons-pt-1 {
+  display:inline-flex;
+}
+
+.icons1, .icons2, .icons3 {
+  margin-right: 1rem;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.social-icons-pt-2 {
+  display:inline-flex;
+}
+
+.icons4, .icons5, .icons6 {
+  margin-right: 1rem;
+  color: lime;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid lime;
+}
+
+.social-icons-pt-3 {
+  display:inline-flex;
+}
+
+.icons7, .icons8, .icons9 {
+  margin-right: 1rem;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.social-icons-pt-4 {
+  display:inline-flex;
+}
+
+.icons10, .icons11, .icons12 {
+  margin-right: 1rem;
+  color: plum;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid plum;
+}
+
+button {
+  position: relative;
+  width: 200px;
+  flex-grow: 0;
+}
+ 
+
+.space {
+  flex-grow: 4;
+}
